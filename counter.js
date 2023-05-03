@@ -25,7 +25,7 @@ const counter = (displayNumber) => {
 
 const startCounter = () => {
   let displayNumber = document.querySelector(".number");
-  let result;
+  let result = "";
   counter(displayNumber);
 };
 startCounter();
